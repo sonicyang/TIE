@@ -30,11 +30,15 @@ SampleRate = 50
 def DecodeRaw(rawdata):
     raw = binascii.a2b_base64(rawdata)
     out = ""
+    x = 1
     for b in raw:
-        out += (str(b) + ",")
+        out += ("{ \"x\": " +  str(x) + ",   \"y\": " + str(b) + "},")
+        x+=1
+    out = out[:-1]
     return out, len(raw)
 
 def xmlParse(xmlString):
+    global RRIlist,timelist
     rawdata, HR, tag, Rpeak, HQ, F1, F2, Y = "","","","","","","",""
     xmlDoc = minidom.parseString(xmlString)
     try :
@@ -73,6 +77,7 @@ def xmlParse(xmlString):
     #Rate set to cnt/1 for convience
 
 def OutputData():
+    global RRIlist,timelist
     f = open('fft', 'w', encoding = 'ASCII')
     i=0
     for x in RRIlist:
@@ -81,6 +86,7 @@ def OutputData():
     f.close()
 
 def lomb():
+    global RRIlist,timelist
     proc = subprocess.Popen(["./lomb", "fft"], stdout = subprocess.PIPE, stderr = subprocess.STDOUT)
     vlc = lc = hc = vl = l = h = 0
     for line in proc.stdout:
@@ -143,7 +149,7 @@ def WritePreasure(Pre):
 
 def AppendRaw(raw, rate):
     f = open("data/raw", "w", encoding = "ASCII")
-    f.write(raw)
+    f.write("[" + raw + "]")
     f.close()
     f = open("data/rate", "w", encoding = "ASCII")
     f.write(str(rate))
@@ -154,6 +160,7 @@ BUFFERSIZE = 64
 ADDR_DEVICE = "8C:DE:52:0F:EE:0D"
 
 def main():
+    global RRIlist,timelist
     initFile()
 
     try:

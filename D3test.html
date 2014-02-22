@@ -3,7 +3,8 @@
 	<head>
 		<meta charset = "UTF-8">
 		<title> D3 test of teh day </title>
-		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="jquery/jquery-2.1.0.js"></script>
 		<style type="text/css">
 			.chart div {
 	  			font: 5px sans-serif;
@@ -52,37 +53,47 @@
 				})
 				.attr("class", "bar");
 				*/
-			var lineData = [ { "x": 5,   "y": 5},  { "x": 40,  "y": 10},
-			{ "x": 70,  "y": 20}, { "x": 90,  "y": 30},
-			{ "x": 140,  "y": 40},  { "x": 260, "y": 60}];
 			
 			function clearBox(elementID){
     			document.getElementById(elementID).innerHTML = "";
 			}
 
-			function drawTheFuck(){
-			var lineFunction = d3.svg.line() // get nodes for svg to draw path
-				.x(function(d) { return d.x; })
-				.y(function(d) { return d.y; })
-				.interpolate("linear");
-			var svgContainer = d3.select("div").append("svg") //append a polyline in div container
-				.attr("width", 1000)
-				.attr("height", 200);
-			var lineGraph = svgContainer.append("path") //draw a freaky pathshit
-				.attr("d", lineFunction(lineData))
-				.attr("fill", "none")
-				.attr("stroke-width", 6)
-				.transition()
-				.duration(2000)
-				.attr("stroke", "blue")
-				.attr("stroke-width", 2);
+            function drawTheFuck(){
+
+            $.ajax({
+                    url: "data/raw",
+                    type: "GET",
+                    dataType: "json",
+                    success: function(response) {
+                        var lineData = response;
+                        console.log(response);
+                        var lineFunction = d3.svg.line() // get nodes for svg to draw path
+				            .x(function(d) { return d.x; })
+            				.y(function(d) { return d.y; })
+			            	.interpolate("linear");
+            			var svgContainer = d3.select("div").append("svg") //append a polyline in div container
+			            	.attr("width", 1000)
+            				.attr("height", 500);
+			            var lineGraph = svgContainer.append("path") //draw a freaky pathshit
+            				.attr("d", lineFunction(lineData))
+			            	.attr("fill", "none")
+            				.attr("stroke-width", 4)
+			            	.transition()
+            				.duration(2000)
+			            	.attr("stroke", "blue")
+            				.attr("stroke-width", 2);
+                        },
+                    error: function() {
+                        console.log("ajax error!");
+                        }
+                   });
+
 			}
 			setInterval(function(){				
-				lineData.push(lineData.shift())
-				console.log(lineData)
+				//lineData.push(lineData.shift())
 				clearBox('chart')
 				drawTheFuck()
-			}, 1000)
+			}, 750)
 
 			svgContainer.exit()
 					.remove();

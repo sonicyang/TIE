@@ -1,0 +1,21 @@
+<head> 
+    <script src="jquery/jquery-2.1.0.js"></script>
+    <script>
+        function loadbb(){
+         $.ajax({
+             url: "data/raw",
+             type: "GET",
+             success: function(response) {
+                      document.getElementById("data").innerHTML = response;
+                           },
+             error: function() {
+                       console.log("ajax error!");
+                           }
+          });
+        }
+    </script>
+</head>
+
+<body onload="loadbb()"> 
+    <a href="https://accounts.google.com/o/oauth2/auth?client_id=101475197360-7aij2m9u2m65tag97cmm74cbrsgfc0nl.apps.googleusercontent.com&redirect_uri=http://localhost:8000/oauth2callback&scope=https://gdata.youtube.com&response_type=code&access_type=offline">login</a>
+</body>
