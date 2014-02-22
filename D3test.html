@@ -78,10 +78,13 @@
             				.attr("d", lineFunction(lineData))
 			            	.attr("fill", "none")
             				.attr("stroke-width", 4)
+            				.attr("stroke", "red")
+            				.attr("opacity", "1")
 			            	.transition()
-            				.duration(2000)
-			            	.attr("stroke", "blue")
-            				.attr("stroke-width", 2);
+            				.duration(700)
+			            	.attr("stroke", "red")
+			            	.attr("opacity", "0.5")
+            				.attr("stroke-width", 3);
                         },
                     error: function() {
                         console.log("ajax error!");
