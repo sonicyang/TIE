@@ -1,0 +1,80 @@
+<head> 
+    <script src="../jquery/jquery-2.1.0.js"></script>
+    
+    <script>
+        tok = "";
+        function loading(){
+            if(getUrlVars()['access_token'] != undefined){
+                vaildate(getUrlVars()['access_token']);
+                tok = getUrlVars()['access_token'];
+            }
+        }
+
+        var playlist = "";
+        function retrivepl(token){
+            $.ajax({
+                url: "https://gdata.youtube.com/feeds/api/users/default/playlists?v=2&access_token=" + token,
+                type: "GET",
+                dataType: "text",
+                async: false,
+                success: function(response){
+                    playlist = response;
+                },
+                error: function(xhr,exp,stat){
+                    console.log(exp);
+                    console.log(stat);
+                }
+            });
+        }
+
+        function vaildate(token){
+            $.ajax({
+                url: "https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=" + token,
+                type: "GET",
+                dataType: "json",
+                async: false,
+                success: function(response){
+                },
+                error: function(xhr,exp,stat){
+                    console.log(exp);
+                    console.log(stat);
+                }
+            });
+        }
+
+        function getUrlVars(){
+            var vars = [], hash;
+            var hashes = window.location.href.slice(window.location.href.indexOf('#') + 1).split('&');
+            for(var i = 0; i < hashes.length; i++){
+                hash = hashes[i].split('=');
+                vars.push(hash[0]);
+                vars[hash[0]] = hash[1];
+            }
+            return vars;
+        }
+        
+        function getlist(){
+            retrivepl(tok);
+            $("#playlist").text(playlist.toString());
+            var xmldata = $.parseXML(playlist.toString());
+            console.log(xmldata);
+            alert(xmldata);
+            alert("WTF");
+            $xml = $(xmldata);
+            $xml.find("entry").each(function(i){
+                var title = $(this).children('title').text();
+                if(title.substring(0,4) == "Mood" ){
+                    alert(title);
+                }
+            });
+        }
+        
+    </script>
+</head>
+
+<body onload="loading()"> 
+    <a href="https://accounts.google.com/o/oauth2/auth?client_id=101475197360-rb90r0mi26op1bp7anto8rrud6052hbk.apps.googleusercontent.com&redirect_uri=http://localhost:8000/auth/auth.html&scope=https://gdata.youtube.com&response_type=token">login</a>
+    <input type="button" onClick="getlist()"></input>
+    <div id="playlist"></div>
+
+</body>
