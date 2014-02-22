@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC5AC12A-5278-43E6-8286-3266D12EEED6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ECGDisplay</RootNamespace>
+    <AssemblyName>HeartWaveDisplay</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>heart_beat.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.5.9.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GraphLib, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\GraphDisplay\GraphLib\bin\Debug\GraphLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.manifest" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="heart_beat.ico" />
+    <Content Include="Resources\0.gif" />
+    <Content Include="Resources\1.gif" />
+    <Content Include="Resources\10.gif" />
+    <Content Include="Resources\100.gif" />
+    <Content Include="Resources\11.gif" />
+    <Content Include="Resources\12.gif" />
+    <Content Include="Resources\13.gif" />
+    <Content Include="Resources\14.gif" />
+    <Content Include="Resources\15.gif" />
+    <Content Include="Resources\16.gif" />
+    <Content Include="Resources\17.gif" />
+    <Content Include="Resources\18.gif" />
+    <Content Include="Resources\19.gif" />
+    <Content Include="Resources\1happy.png" />
+    <Content Include="Resources\2.gif" />
+    <Content Include="Resources\20.gif" />
+    <Content Include="Resources\21.gif" />
+    <Content Include="Resources\22.gif" />
+    <Content Include="Resources\23.gif" />
+    <Content Include="Resources\24.gif" />
+    <Content Include="Resources\25.gif" />
+    <Content Include="Resources\26.gif" />
+    <Content Include="Resources\27.gif" />
+    <Content Include="Resources\28.gif" />
+    <Content Include="Resources\29.gif" />
+    <Content Include="Resources\2smile.png" />
+    <Content Include="Resources\3.gif" />
+    <Content Include="Resources\30.gif" />
+    <Content Include="Resources\31.gif" />
+    <Content Include="Resources\32.gif" />
+    <Content Include="Resources\33.gif" />
+    <Content Include="Resources\34.gif" />
+    <Content Include="Resources\35.gif" />
+    <Content Include="Resources\36.gif" />
+    <Content Include="Resources\37.gif" />
+    <Content Include="Resources\38.gif" />
+    <Content Include="Resources\39.gif" />
+    <Content Include="Resources\3normal.png" />
+    <Content Include="Resources\4.gif" />
+    <Content Include="Resources\40.gif" />
+    <Content Include="Resources\41.gif" />
+    <Content Include="Resources\42.gif" />
+    <Content Include="Resources\43.gif" />
+    <Content Include="Resources\44.gif" />
+    <Content Include="Resources\45.gif" />
+    <Content Include="Resources\46.gif" />
+    <Content Include="Resources\47.gif" />
+    <Content Include="Resources\48.gif" />
+    <Content Include="Resources\49.gif" />
+    <Content Include="Resources\4sad.png" />
+    <Content Include="Resources\5.gif" />
+    <Content Include="Resources\50.gif" />
+    <Content Include="Resources\51.gif" />
+    <Content Include="Resources\52.gif" />
+    <Content Include="Resources\53.gif" />
+    <Content Include="Resources\54.gif" />
+    <Content Include="Resources\55.gif" />
+    <Content Include="Resources\56.gif" />
+    <Content Include="Resources\57.gif" />
+    <Content Include="Resources\58.gif" />
+    <Content Include="Resources\59.gif" />
+    <Content Include="Resources\5cry.png" />
+    <Content Include="Resources\6.gif" />
+    <Content Include="Resources\60.gif" />
+    <Content Include="Resources\61.gif" />
+    <Content Include="Resources\62.gif" />
+    <Content Include="Resources\63.gif" />
+    <Content Include="Resources\64.gif" />
+    <Content Include="Resources\65.gif" />
+    <Content Include="Resources\66.gif" />
+    <Content Include="Resources\67.gif" />
+    <Content Include="Resources\68.gif" />
+    <Content Include="Resources\69.gif" />
+    <Content Include="Resources\7.gif" />
+    <Content Include="Resources\70.gif" />
+    <Content Include="Resources\71.gif" />
+    <Content Include="Resources\72.gif" />
+    <Content Include="Resources\73.gif" />
+    <Content Include="Resources\74.gif" />
+    <Content Include="Resources\75.gif" />
+    <Content Include="Resources\76.gif" />
+    <Content Include="Resources\77.gif" />
+    <Content Include="Resources\78.gif" />
+    <Content Include="Resources\79.gif" />
+    <Content Include="Resources\8.gif" />
+    <Content Include="Resources\80.gif" />
+    <Content Include="Resources\81.gif" />
+    <Content Include="Resources\82.gif" />
+    <Content Include="Resources\83.gif" />
+    <Content Include="Resources\84.gif" />
+    <Content Include="Resources\85.gif" />
+    <Content Include="Resources\86.gif" />
+    <Content Include="Resources\87.gif" />
+    <Content Include="Resources\88.gif" />
+    <Content Include="Resources\89.gif" />
+    <Content Include="Resources\9.gif" />
+    <Content Include="Resources\90.gif" />
+    <Content Include="Resources\91.gif" />
+    <Content Include="Resources\92.gif" />
+    <Content Include="Resources\93.gif" />
+    <Content Include="Resources\94.gif" />
+    <Content Include="Resources\95.gif" />
+    <Content Include="Resources\96.gif" />
+    <Content Include="Resources\97.gif" />
+    <Content Include="Resources\98.gif" />
+    <Content Include="Resources\99.gif" />
+    <Content Include="Resources\stars1.gif" />
+    <Content Include="Resources\stars2.gif" />
+    <Content Include="Resources\stars3.gif" />
+    <Content Include="Resources\stars4.gif" />
+    <Content Include="Resources\stars5.gif" />
+    <None Include="Resources\status.jpg" />
+    <None Include="Resources\color.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
