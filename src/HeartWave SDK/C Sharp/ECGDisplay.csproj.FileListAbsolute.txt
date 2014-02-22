@@ -1,0 +1,245 @@
+D:\Visual Studio 2008\Projects\ECGDisplay\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay\ECGDisplay\obj\Release\ECGDisplay.csproj.GenerateResource.Cache
+D:\Visual Studio 2008\Projects\ECGDisplay\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V2\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V2\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V2\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay_V2\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V2\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.csproj.GenerateResource.Cache
+C:\Users\piyo\Desktop\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.exe
+C:\Users\piyo\Desktop\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.pdb
+C:\Users\piyo\Desktop\ECGDisplay_V2\ECGDisplay\bin\Release\ECGDisplay.exe
+C:\Users\piyo\Desktop\ECGDisplay_V2\ECGDisplay\bin\Release\ECGDisplay.pdb
+C:\Users\piyo\Desktop\ECGDisplay_V2\ECGDisplay\bin\Release\GraphLib.pdb
+C:\Users\piyo\Desktop\ECGDisplay_V2\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+C:\Users\piyo\Desktop\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+C:\Users\piyo\Desktop\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+C:\Users\piyo\Desktop\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.csproj.GenerateResource.Cache
+D:\Visual Studio 2008\Projects\20120120\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\20120120\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\20120120\ECGDisplay_V2\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\20120120\ECGDisplay_V2\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\20120120\ECGDisplay_V2\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\20120120\ECGDisplay_V2\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\20120120\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\20120120\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\20120120\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.csproj.GenerateResource.Cache
+D:\Visual Studio 2008\Projects\20120120\ECGDisplay_V2\ECGDisplay\obj\Release\ECGDisplay.PointCare.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V3\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V3\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay_V3\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V3\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V3\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V3\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V3\ECGDisplay\obj\Release\ECGDisplay.csproj.GenerateResource.Cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V3\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V3\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V3\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay_V4\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V4\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4\ECGDisplay\obj\Release\ECGDisplay.csproj.GenerateResource.Cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V4\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.3)\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.3)\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.3)\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.3)\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.3)\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.3)\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.3)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.3)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.3)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.3)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.3)\ECGDisplay\obj\Release\ECGDisplay.csproj.GenerateResource.Cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\GraphLib.dll
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\GraphLib.pdb
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ResGen.read.1.tlog
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\BOMDIC\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\20120304\ECGDisplay_V4(2.4)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.6.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.6.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\obj\Release\ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6)\ECGDisplay\obj\Release\ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\obj\Release\GenerateResource-ResGen.read.6.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\obj\Release\ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\obj\Release\ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.6) - 複製\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.6.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4.9)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.6.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.9.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.3)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.9.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.9.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.4)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.9.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\bin\Release\GraphLib.dll
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\bin\Release\GraphLib.pdb
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.9.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.9.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ECGDisplay.exe
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ECGDisplay.pdb
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\bin\Release\ECGDisplay.exe
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\bin\Release\ECGDisplay.pdb
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\bin\Release\GraphLib.dll
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\bin\Release\GraphLib.pdb
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\GenerateResource-ResGen.read.9.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ResGen.read.1.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\GenerateResource-ResGen.write.9.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.6)\ECGDisplay\obj\Release\ResGen.write.1.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.8)\ECGDisplay\bin\Release\HeartWaveDisplay.exe
+D:\BOMDIC\ECGDisplay_V4(2.5.8)\ECGDisplay\bin\Release\HeartWaveDisplay.pdb
+D:\BOMDIC\ECGDisplay_V4(2.5.8)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\BOMDIC\ECGDisplay_V4(2.5.8)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\BOMDIC\ECGDisplay_V4(2.5.8)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\BOMDIC\ECGDisplay_V4(2.5.8)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\BOMDIC\ECGDisplay_V4(2.5.8)\ECGDisplay\obj\Release\ResGen.read.1.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.8)\ECGDisplay\obj\Release\ResGen.write.1.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.8)\ECGDisplay\obj\Release\HeartWaveDisplay.exe
+D:\BOMDIC\ECGDisplay_V4(2.5.8)\ECGDisplay\obj\Release\HeartWaveDisplay.pdb
+D:\BOMDIC\ECGDisplay_V4(2.5.9)\ECGDisplay\obj\Release\HeartWaveDisplay.exe
+D:\BOMDIC\ECGDisplay_V4(2.5.9)\ECGDisplay\obj\Release\HeartWaveDisplay.pdb
+D:\BOMDIC\ECGDisplay_V4(2.5.9)\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\BOMDIC\ECGDisplay_V4(2.5.9)\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\BOMDIC\ECGDisplay_V4(2.5.9)\ECGDisplay\obj\Release\ECGDisplay.History.resources
+D:\BOMDIC\ECGDisplay_V4(2.5.9)\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\BOMDIC\ECGDisplay_V4(2.5.9)\ECGDisplay\obj\Release\ResGen.read.1.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.9)\ECGDisplay\obj\Release\ResGen.write.1.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.9)\ECGDisplay\bin\Release\HeartWaveDisplay.exe
+D:\BOMDIC\ECGDisplay_V4(2.5.9)\ECGDisplay\bin\Release\HeartWaveDisplay.pdb
+D:\BOMDIC\ECGDisplay_V4(2.5.9)-noHRV\ECGDisplay\obj\Release\HeartWaveDisplay.exe
+D:\BOMDIC\ECGDisplay_V4(2.5.9)-noHRV\ECGDisplay\obj\Release\HeartWaveDisplay.pdb
+D:\BOMDIC\ECGDisplay_V4(2.5.9)-noHRV\ECGDisplay\obj\Release\ResolveAssemblyReference.cache
+D:\BOMDIC\ECGDisplay_V4(2.5.9)-noHRV\ECGDisplay\obj\Release\ECGDisplay.Form1.resources
+D:\BOMDIC\ECGDisplay_V4(2.5.9)-noHRV\ECGDisplay\obj\Release\ECGDisplay.Properties.Resources.resources
+D:\BOMDIC\ECGDisplay_V4(2.5.9)-noHRV\ECGDisplay\obj\Release\ResGen.read.1.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.9)-noHRV\ECGDisplay\obj\Release\ResGen.write.1.tlog
+D:\BOMDIC\ECGDisplay_V4(2.5.9)-noHRV\ECGDisplay\bin\Release\HeartWaveDisplay.exe
+D:\BOMDIC\ECGDisplay_V4(2.5.9)-noHRV\ECGDisplay\bin\Release\HeartWaveDisplay.pdb

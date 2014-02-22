@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ECGDisplay">
+</Property><Property Name="方案檔" Value="D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay.sln">
+</Property><Property Name="使用者選項檔" Value="D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\ECGDisplay.suo">
+</Property><Property Name="Date" Value="2012-02-22">
+</Property><Property Name="Time" Value="下午 14:39">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ECGDisplay.sln" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ECGDisplay.suo" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay.suo">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\ECGDisplay.csproj" Description="專案檔已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\ECGDisplay.csproj">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\ECGDisplay.csproj.user" Description="專案使用者檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\ECGDisplay.csproj.user">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Form1.cs" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Form1.cs">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Form1.Designer.cs" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\History.cs" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\History.cs">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\History.Designer.cs" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\History.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Program.cs" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Program.cs">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Properties\AssemblyInfo.cs" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Properties\Resources.Designer.cs" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Properties\Settings.Designer.cs" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\QRS.cs" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\QRS.cs">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Properties\Settings.settings" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Resources\heart.gif" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Resources\heart.gif">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Resources\heart.jpg" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Resources\heart.jpg">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Resources\color.jpg" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Resources\color.jpg">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\heart_beat.ico" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\heart_beat.ico">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Form1.resx" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Form1.resx">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\History.resx" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\History.resx">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\Properties\Resources.resx" Description="檔案已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplay\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\ECGDisplay.csproj" Description="專案轉換成功">
+</Event><Event ErrorLevel="3" Project="ECGDisplay" Source="ECGDisplay\ECGDisplay.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ECGDisplaySetup.vdproj" Source="ECGDisplaySetup\ECGDisplaySetup.vdproj" Description="專案檔已成功備份為 D:\Visual Studio 2008\Projects\ECGDisplay_V4(2.4)\Backup\ECGDisplaySetup\ECGDisplaySetup.vdproj">
+</Event><Event ErrorLevel="0" Project="" Source="ECGDisplay.sln" Description="方案轉換成功">
+</Event><Event ErrorLevel="3" Project="" Source="ECGDisplay.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\ECGDisplay.csproj" Description="掃描完成: 專案檔不需要升級。">
+</Event><Event ErrorLevel="0" Project="ECGDisplay" Source="ECGDisplay\ECGDisplay.csproj" Description="已將 Microsoft.VisualBasic.PowerPacks.Vs 的參考更新到 Microsoft.VisualBasic.PowerPacks.Vs 10.0。">
+</Event></UpgradeLog>
