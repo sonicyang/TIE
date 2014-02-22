@@ -57,15 +57,23 @@
 			function clearBox(elementID){
     			document.getElementById(elementID).innerHTML = "";
 			}
+            
 
+            var old_data = "";
+            var lineData = "";
             function drawTheFuck(){
-
+            
             $.ajax({
                     url: "data/raw",
                     type: "GET",
                     dataType: "json",
                     success: function(response) {
-                        var lineData = response;
+                        if(JSON.stringify(response) == JSON.stringify(old_data)){
+                            return;
+                        }
+				        clearBox('chart')
+                        lineData = response;
+                        old_data = lineData;
                         console.log(response);
                         var lineFunction = d3.svg.line() // get nodes for svg to draw path
 				            .x(function(d) { return d.x; })
@@ -79,12 +87,12 @@
 			            	.attr("fill", "none")
             				.attr("stroke-width", 4)
             				.attr("stroke", "red")
-            				.attr("opacity", "1")
-			            	.transition()
-            				.duration(700)
-			            	.attr("stroke", "red")
-			            	.attr("opacity", "0.5")
-            				.attr("stroke-width", 3);
+            				//.attr("opacity", "1")
+			            	//.transition()
+            				//.duration(700)
+			            	//.attr("stroke", "red")
+			            	//.attr("opacity", "0.5")
+            				//.attr("stroke-width", 3);
                         },
                     error: function() {
                         console.log("ajax error!");
@@ -94,9 +102,8 @@
 			}
 			setInterval(function(){				
 				//lineData.push(lineData.shift())
-				clearBox('chart')
 				drawTheFuck()
-			}, 750)
+			}, 500)
 
 			svgContainer.exit()
 					.remove();
