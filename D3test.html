@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title> D3 test of teh day </title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<style type="text/css">
+			.chart div {
+	  			font: 5px sans-serif;
+	  			background-color: steelblue;
+	  			text-align: right;
+	  			padding: 5px;
+	  			margin: 3px;
+	  			color: white;
+			}
+			div.bar {  /* For bar-gen */
+				display: inline-block;
+				width: 50px;
+				height: 150px;
+				background-color: lightGreen;
+				margin-right: 30px;
+			} 
+		</style>
+		
+	</head>	
+	<body>
+	<div id= "chart"></div>
+		<script type="text/javascript">
+		//Random data Generator
+/*			var set = [];
+			for (var i = 0; i < 50; i++) {			 
+				var newNumber = Math.random() * 300;  
+				set = set.concat(newNumber);
+				set[i] = Math.floor(set[i]); 
+			}
+			
+			d3.select("div").select("papapa")
+				.data(set)
+				.enter()
+				.append("div")
+				.text(function(d) { // fap fap fap fap
+					return(d) ; 
+				})
+				.style("color", function(d){
+					if (d < 50){
+						return "red";
+					}
+					else return "blue";
+				})
+				.style("height", function(d){
+					return d + "px";
+				})
+				.attr("class", "bar");
+				*/
+			var lineData = [ { "x": 5,   "y": 5},  { "x": 40,  "y": 10},
+			{ "x": 70,  "y": 20}, { "x": 90,  "y": 30},
+			{ "x": 140,  "y": 40},  { "x": 260, "y": 60}];
+			
+			function clearBox(elementID){
+    			document.getElementById(elementID).innerHTML = "";
+			}
+
+			function drawTheFuck(){
+			var lineFunction = d3.svg.line() // get nodes for svg to draw path
+				.x(function(d) { return d.x; })
+				.y(function(d) { return d.y; })
+				.interpolate("linear");
+			var svgContainer = d3.select("div").append("svg") //append a polyline in div container
+				.attr("width", 1000)
+				.attr("height", 200);
+			var lineGraph = svgContainer.append("path") //draw a freaky pathshit
+				.attr("d", lineFunction(lineData))
+				.attr("fill", "none")
+				.attr("stroke-width", 6)
+				.transition()
+				.duration(2000)
+				.attr("stroke", "blue")
+				.attr("stroke-width", 2);
+			}
+			setInterval(function(){				
+				lineData.push(lineData.shift())
+				console.log(lineData)
+				clearBox('chart')
+				drawTheFuck()
+			}, 1000)
+
+			svgContainer.exit()
+					.remove();
+		</script>
+
+	</body>
+</html>
