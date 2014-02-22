@@ -1,0 +1,22 @@
+<head> 
+    <script src="jquery/jquery-2.1.0.js"></script>
+    <script>
+        function loadbb(){
+         $.ajax({
+             url: "data/raw",
+             type: "GET",
+             success: function(response) {
+                      document.getElementById("data").innerHTML = response;
+                           },
+             error: function() {
+                       console.log("ajax error!");
+                           }
+          });
+        }
+    </script>
+</head>
+
+<body onload="loadbb()"> 
+    <input type="button" onClick="loadbb()"></input>
+    <div id="data"></div>
+</body>
