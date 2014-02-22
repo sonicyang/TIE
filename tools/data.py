@@ -3,6 +3,6 @@ b=[0.088, 0.088, 0.456, 1.456, 1.456, 2.494, 3.496, 3.496, 4.496, 5.534, 5.534, 
 f = open('A.txt', 'w', encoding = 'ASCII') 
 i=0
 for x in a:
-	f.write(str(x) + " "+ str(b[i]) + "\n")
+	f.write(str(b[i]) + " "+ str(x) + "\n")
 	i+=1
 	
