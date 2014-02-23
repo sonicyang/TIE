@@ -19,7 +19,7 @@ def getHFp(h, tot):
 	HFp  = h / tot * 100
 	return HFp
 def getPreasure(l,h):
-    Pre =  l / (l+h) * 100
+    Pre =  float(l) / float(l+h) * 100
     return Pre
 
 globalTime = time.time()
@@ -41,8 +41,10 @@ def xmlParse(xmlString):
     xmlDoc = minidom.parseString(xmlString)
     try :
         HR = xmlDoc.getElementsByTagName('H')
+        HR = int(HR[0].firstChild.data)
     except :
-        HR = "0"
+        HR = 0
+    
     modulename = xmlDoc.getElementsByTagName('M') 
     rawdata = xmlDoc.getElementsByTagName('D')
     tag = xmlDoc.getElementsByTagName('T')
@@ -68,10 +70,10 @@ def xmlParse(xmlString):
                 for i in dataRRI:
                     RRIlist.append(float(i)/100)
                     timelist.append(dt)
-                return True, raw, cnt
+                return True, raw, cnt, HR
         except:
             RRI = ""
-    return False, raw, cnt
+    return False, raw, cnt, HR
     #Rate set to cnt/1 for convience
 
 def OutputData():
@@ -145,6 +147,12 @@ def WritePreasure(Pre):
     f.write(str(Pre))
     f.close()
 
+def WriteHR(HR):
+    f = open("data/hr", "w", encoding = "ASCII")
+    f.write(str(HR))
+    f.close()
+
+
 def AppendRaw(raw, rate, old_raw):
     out = ""
     x = 1
@@ -186,9 +194,11 @@ def main():
 
                 print(xmls[0])
 
-                RExist, raw, rate = xmlParse(xmls[0])
+                RExist, raw, rate, HR = xmlParse(xmls[0])
                 AppendRaw(raw, rate, old_raw)
-
+                print(HR)
+                if(HR > 0):
+                    WriteHR(HR)
                 if(RExist):
                     R_cnt += 1
                     print(R_cnt)
@@ -196,10 +206,11 @@ def main():
                     vl, l, h, tot = lomb()
                     print(vl,l,h,tot)
                     R_cnt = 0
-                    RLLlist = RLLlist[SampleRate:]
+                    RRIlist = RRIlist[SampleRate:]
                     timelist = timelist[SampleRate:]
                     WritePreasure(getPreasure(l,h))
-                    
+                    print(getPreasure(l,h)) 
+
                 data = DataReconstruct(xmls)
                     
     except IOError:
