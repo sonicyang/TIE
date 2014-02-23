@@ -8,6 +8,7 @@ import time
 from bluetooth import *
 import bluetooth
 import subprocess
+import os
 
 def getVLFp(vlf, tot):
 	VLFp = (vlf / tot) * 100
@@ -146,12 +147,35 @@ def WritePreasure(Pre):
     f = open("data/preasure", "w", encoding = "ASCII")
     f.write(str(Pre))
     f.close()
+    AdjustColor(Pre)
+    AdjustWallpaper(Pre)
 
 def WriteHR(HR):
     f = open("data/hr", "w", encoding = "ASCII")
     f.write(str(HR))
     f.close()
 
+def AdjustColor(Pre):
+    temp = int(90 * Pre + 2000)
+    if(temp > 9000):
+        temp = 9000
+    elif(temp < 5000):
+        temp = 5000
+    os.system("redshift -O " + str(temp))
+
+def AdjustWallpaper(Pre):
+    path = "\'file://" + os.getcwd()
+    print(path)
+    if(Pre > 70):
+        path += "/pic/warm/warm (1).jpg\'"
+    elif(Pre <= 70 and Pre > 60):
+        path += "/pic/green/green (1).jpg\'"
+    elif(Pre <= 60 and Pre > 40):
+        path += "/pic/blue/blue (4).jpg\'"
+    elif(Pre <= 40):
+        path += "/pic/cold/cold (8).jpg\'"
+    print(path)
+    os.system("gsettings set org.gnome.desktop.background picture-uri " + path)
 
 def AppendRaw(raw, rate, old_raw):
     out = ""
