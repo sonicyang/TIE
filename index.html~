@@ -371,7 +371,7 @@
 						<div id = "mind_text" class= "text">Mind</div>
 						<div id = "show_mind">
 							<svg>
-								<circle id="test" cx = "30px" cy = "30px" r ="35" fill = "red"/>
+								<circle id="test" cx = "25px" cy = "25px" r ="35" fill = "red"/>
 							</svg>
 						</div>
 					</div>

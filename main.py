@@ -26,6 +26,10 @@ globalTime = time.time()
 RRIlist = []
 timelist = []
 SampleRate = 50
+CHANNEL = 6
+BUFFERSIZE = 64
+ADDR_DEVICE = "8C:DE:52:0F:EE:0D"
+
 
 def DecodeRaw(rawdata):
     raw = binascii.a2b_base64(rawdata)
@@ -159,10 +163,6 @@ def AppendRaw(raw, rate, old_raw):
     f.write(str(rate))
     f.close()
 
-CHANNEL = 6
-BUFFERSIZE = 64
-ADDR_DEVICE = "8C:DE:52:0F:EE:0D"
-
 def main():
     global RRIlist,timelist
     initFile()
@@ -192,7 +192,7 @@ def main():
                 if(RExist):
                     R_cnt += 1
                     print(R_cnt)
-                if(R_cnt >= SampleRate):
+                if(R_cnt > SampleRate):
                     vl, l, h, tot = lomb()
                     print(vl,l,h,tot)
                     R_cnt = 0
