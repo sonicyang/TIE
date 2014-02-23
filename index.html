@@ -1,6 +1,9 @@
 <html>
 <head>
 	<style type="text/css">
+	html{
+		background-color: #C89F62;
+	}
 	body{
 		width:1024px;
 		height: 550px;
@@ -74,6 +77,7 @@
 		left: 5%;
 		width:90%;
 		height:80%;
+		border-radius: 6px;
 		background-color: #fff
 	}
 	#other_info_container{
@@ -153,8 +157,7 @@
 
     #chart {
         font: 5px sans-serif;
-        background-color: steelblue;
-
+      
         color: white;
     }
 
@@ -372,7 +375,7 @@
 						</div>
 					</div>
 					<div id = "mind">
-						<div id = "mind_text" class= "text">Mind</div>
+						<div id = "mind_text" class= "text">Mental</div>
 						<div id = "show_mind">
 							<svg>
 								<circle id="test" cx = "30px" cy = "30px" r ="35" fill = "red"/>
@@ -381,14 +384,18 @@
 					</div>
 				</div>
 				<div id = "control_board_container">
-					<span id = "control_board_text">Desktop picture control</span>
-					<input type = "button"/>
+					<span id = "control_board_text"></span>
+					
 				</div>
 			</div>
 			<div id = "youtube_container">
 				<div id = "youtube_list_text">Youtube List</div>
 				<div id ="youtube_list">
-					
+					<svg>
+						<rect x="5" y="129" height="40" width="281" fill="#693905" ></rect>
+						<circle cx = "145" cy = "149" r = "40" fill="#7f4E20" stroke="white" stroke-width="4px"></circle>
+						<text x="115" y="155" fill="white" font-size="25">Login</text>
+					</svg>
 				</div>
 			</div>
 		</div>
