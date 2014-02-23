@@ -129,7 +129,11 @@
 	}
 	
 	#show_heart{
-		position: relative;
+        position: relative;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 55px;
+        font-size: 30px;
 		left: 30%;
 		top: 25%;
 		width: 40%;
@@ -275,7 +279,8 @@
 			}
 		setInterval(function(){				
 			//lineData.push(lineData.shift())
-			drawTheDuck()
+            drawTheDuck();
+            getHR();
 		}, 500)
 
 		svgContainer.exit()
@@ -346,6 +351,23 @@
                 var title = $(this).children('title').text();
                 if(title.substring(0,4) == "Mood" ){
                     alert(title);
+                }
+            });
+        }
+
+        // ========================= HR ==================
+
+        function getHR(){
+            $.ajax({
+                url: "data/hr",
+                type: "GET",
+                dataType: "text",
+                success: function(response){
+                    $("#show_heart").text(response);
+                },
+                error: function(xhr,exp,stat){
+                    console.log(exp);
+                    console.log(stat);
                 }
             });
         }

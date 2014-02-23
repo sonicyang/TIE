@@ -8,6 +8,7 @@ import time
 from bluetooth import *
 import bluetooth
 import subprocess
+import os
 
 def getVLFp(vlf, tot):
 	VLFp = (vlf / tot) * 100
@@ -145,13 +146,24 @@ def initFile():
 def WritePreasure(Pre):
     f = open("data/preasure", "w", encoding = "ASCII")
     f.write(str(Pre))
+    AdjustColor(Pre)
     f.close()
+
+
 
 def WriteHR(HR):
     f = open("data/hr", "w", encoding = "ASCII")
     f.write(str(HR))
     f.close()
 
+
+def AdjustColor(Pre):
+    temp = int(90 * Pre + 2000)
+    if(temp > 9000):
+        temp = 9000
+    elif(temp < 5000):
+        temp = 5000
+    os.system("redshift -O " + str(temp))
 
 def AppendRaw(raw, rate, old_raw):
     out = ""
