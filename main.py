@@ -29,13 +29,7 @@ SampleRate = 50
 
 def DecodeRaw(rawdata):
     raw = binascii.a2b_base64(rawdata)
-    out = ""
-    x = 1
-    for b in raw:
-        out += ("{ \"x\": " +  str(x) + ",   \"y\": " + str(b) + "},")
-        x+=1
-    out = out[:-1]
-    return out, len(raw)
+    return raw, len(raw)
 
 def xmlParse(xmlString):
     global RRIlist,timelist
@@ -147,9 +141,19 @@ def WritePreasure(Pre):
     f.write(str(Pre))
     f.close()
 
-def AppendRaw(raw, rate):
+def AppendRaw(raw, rate, old_raw):
+    out = ""
+    x = 1
+    for b in raw:
+        out += ("{ \"x\": " +  str(x) + ",   \"y\": " + str(b) + "},")
+        x+=1
+    for b in old_raw:
+        out += ("{ \"x\": " +  str(x) + ",   \"y\": " + str(b) + "},")
+        x+=1
+    out = out[:-1]
+
     f = open("data/raw", "w", encoding = "ASCII")
-    f.write("[" + raw + "]")
+    f.write("[" + out + "]")
     f.close()
     f = open("data/rate", "w", encoding = "ASCII")
     f.write(str(rate))
@@ -170,16 +174,20 @@ def main():
 
         data = ""
         R_cnt = 0
-        
+        old_raw = ""
+        raw = ""
+
         while True:
             data += client_socket.recv(BUFFERSIZE).decode("ASCII")
             xmls = SplitData(data)
             ret, data = CheckData(xmls, data)
             if(ret):
+                old_raw = raw
+
                 print(xmls[0])
 
-                RExist, raw, rate = xmlParse(xmls[0]);
-                AppendRaw(raw, rate)
+                RExist, raw, rate = xmlParse(xmls[0])
+                AppendRaw(raw, rate, old_raw)
 
                 if(RExist):
                     R_cnt += 1
