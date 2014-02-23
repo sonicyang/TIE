@@ -49,7 +49,7 @@
 	}
 	#youtube_list{
 		position: relative;
-		
+	    padding : 5px;	
 		left: 5%;
 		width: 90%;
 		height: 75%;
@@ -169,10 +169,13 @@
         padding: 10px;
         vertical-align: middle;
         text-align: center;
+        border-style:solid;
+        border-width: 3pxi;
     }
     </style>
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="jquery/d3.v3.min.js" charset="utf-8"></script>
     <script src="jquery/jquery-2.1.0.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2/swfobject.js"></script>
 	<script type="text/javascript">
 		/*variable for pressure_circle*/
 		var press_cir
@@ -191,8 +194,8 @@
 			var loop_1 = window.setInterval(loop,10);
 			var loop_2 = window.setInterval(colorLoop,10);
 			press_cir = document.getElementById('test')	
-			press_cir.style.fill =press_cir_color
-            loading();
+            press_cir.style.fill =press_cir_color
+            //loading();
 		}
 		function loop(){		
 			press_cir.setAttribute("r",press_cir_r +disflat())
@@ -249,8 +252,10 @@
             
         var old_data = "";
         var lineData = "";
+
+        var manu = false;
         function drawTheDuck(){
-            
+    
         $.ajax({
                 url: "data/raw",
                 type: "GET",
@@ -290,7 +295,9 @@
 			//lineData.push(lineData.shift())
             drawTheDuck();
             getHR();
-            getPre();
+            if(!manu){
+                getPre();
+            }
 		}, 500)
 
         //================================Auth====================
@@ -383,7 +390,7 @@
                 }
             });
         }
-        // ========================= HR ==================
+        // ========================= Pre ==================
 
         function getPre(){
             $.ajax({
@@ -391,12 +398,13 @@
                 type: "GET",
                 dataType: "text",
                 success: function(response){
-                    var k = parseInt(response,10) * 2 / 5;
+                    var k = parseInt(response,10) * 2 / 5 ;
                     if(k > 30)
                         k = 30;
                     else if(k < 10)
                         k = 10;
                     modifySize(k);
+                    loadPlayer(parseInt(response,10));
                 },
                 error: function(xhr,exp,stat){
                     console.log(exp);
@@ -404,8 +412,24 @@
                 }
             });
         }
+    var old = 0;
+    function loadPlayer(pre){
+        if (pre != old){
+            if(pre >= 50){
+                $("#youtube_container").html("<iframe id=\"ytplayer\" type=\"text/html\" width=\"300\" height=\"200\" src=\"http://www.youtube.com/embed?listType=playlist&list=PL_koQOHg1UqNZaQ3BcTd-buUhPTmaWLqr\" frameborder=\"0\"/>");
+            }else{
+                $("#youtube_container").html("<iframe id=\"ytplayer\" type=\"text/html\" width=\"300\" height=\"200\" src=\"http://www.youtube.com/embed?listType=playlist&list=PL_koQOHg1UqP7jziQ4zlETfxlW8N6A2H5\" frameborder=\"0\"/>");
+            }
+            old = pre;
+        }
+    }
 
-		</script>
+    function setting(s){
+        manu = true;
+        modifySize(s * 2 / 5);
+        loadPlayer(s);
+    }
+    </script>
 </head>
 <body onload="start()">
 	<div id = "container">
@@ -434,18 +458,18 @@
 				</div>
 				<div id = "control_board_container">
 					<span id = "control_board_text"></span>
-					
+                    <input type="button" onClick="setting(30)">30</input>					
+                    <input type="button" onClick="setting(50)">50</input>					
+                    <input type="button" onClick="setting(70)">70</input>					
 				</div>
 			</div>
 			<div id = "youtube_container">
-				<div id = "youtube_list_text">Youtube List</div>
-				<div id ="youtube_list">
-					<svg id="lsvg">
+                <!--<div id = "youtube_list_text">Youtube List</div>-->
+					<!--<svg id="lsvg">
 						<rect x="5" y="129" height="40" width="281" fill="#693905" id="lrect"></rect>
-                        <circle cx = "145" cy = "149" r = "40" fill="#7f4E20" stroke="white" stroke-width="4px" id="lcir" onClick="login()"> </circle>
+                        <circle cx = "145" cy = "149" r = "40" fill="#7f4E20" stroke="white" stroke-width="4px" id="lcir"> </circle>
 						<text x="115" y="155" fill="white" font-size="25" id="ltxt">Login</text>
-					</svg>
-				</div>
+                    </svg>-->
 			</div>
 		</div>
 	</div>
