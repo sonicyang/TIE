@@ -165,7 +165,11 @@
         color: white;
     }
 
-
+    .listele{
+        padding: 10px;
+        vertical-align: middle;
+        text-align: center;
+    }
     </style>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="jquery/jquery-2.1.0.js"></script>
@@ -188,7 +192,7 @@
 			var loop_2 = window.setInterval(colorLoop,10);
 			press_cir = document.getElementById('test')	
 			press_cir.style.fill =press_cir_color
-
+            loading();
 		}
 		function loop(){		
 			press_cir.setAttribute("r",press_cir_r +disflat())
@@ -199,7 +203,6 @@
 		function colorLoop(){
 			press_cir_R = parseInt(press_cir.getAttribute("r")) * 8
 			press_cir_B = 255- parseInt(press_cir.getAttribute("r")) * 8
-			console.log(press_cir_B)
 			press_cir_color = "rgb(" + (press_cir_R).toString() + "," +(press_cir_G).toString() + "," + (press_cir_B).toString() + ")"
 			press_cir.style.fill =press_cir_color
 		}
@@ -259,7 +262,6 @@
                     clearBox('chart')
                     lineData = response;
                     old_data = lineData;
-                    console.log(response);
                     var lineFunction = d3.svg.line() // get nodes for svg to draw path
     		            .x(function(d) { return d.x/1.5; })
            				.y(function(d) { return d.y/2; })
@@ -288,21 +290,23 @@
 			//lineData.push(lineData.shift())
             drawTheDuck();
             getHR();
+            getPre();
 		}, 500)
 
-		svgContainer.exit()
-				.remove();
-
         //================================Auth====================
-        tok = "";
+        var tok = "";
+        var playlist = "";
         function loading(){
             if(getUrlVars()['access_token'] != undefined){
+                tok = getUrlVars()['access_token'].toString();
                 vaildate(getUrlVars()['access_token']);
-                tok = getUrlVars()['access_token'];
+                $("#lrect").css("display","none");
+                $("#lcir").css("display","none");
+                $("#ltxt").css("display","none");
+                $("#lsvg").css("display","none");
             }
         }
 
-        var playlist = "";
         function retrivepl(token){
             $.ajax({
                 url: "https://gdata.youtube.com/feeds/api/users/default/playlists?v=2&access_token=" + token,
@@ -311,7 +315,6 @@
                 async: false,
                 success: function(response){
                     playlist = response;
-                    getlist();
                 },
                 error: function(xhr,exp,stat){
                     console.log(exp);
@@ -327,6 +330,7 @@
                 dataType: "json",
                 async: false,
                 success: function(response){
+                    getlist(token);
                 },
                 error: function(xhr,exp,stat){
                     console.log(exp);
@@ -348,18 +352,19 @@
         
         function getlist(){
             retrivepl(tok);
-            $("#playlist").text(playlist.toString());
             var xmldata = $.parseXML(playlist.toString());
             console.log(xmldata);
-            alert(xmldata);
-            alert("WTF");
             $xml = $(xmldata);
             $xml.find("entry").each(function(i){
                 var title = $(this).children('title').text();
                 if(title.substring(0,4) == "Mood" ){
-                    alert(title);
+                    $("#youtube_list").append("<div class=\"listele\">" + title.substring(5) + "</div>");
                 }
             });
+        }
+        
+        function login(){
+            window.location.href = "https://accounts.google.com/o/oauth2/auth?client_id=101475197360-rb90r0mi26op1bp7anto8rrud6052hbk.apps.googleusercontent.com&redirect_uri=http://localhost:8000/index.html&scope=https://gdata.youtube.com&response_type=token";
         }
 
         // ========================= HR ==================
@@ -378,6 +383,28 @@
                 }
             });
         }
+        // ========================= HR ==================
+
+        function getPre(){
+            $.ajax({
+                url: "data/preasure",
+                type: "GET",
+                dataType: "text",
+                success: function(response){
+                    var k = parseInt(response,10) * 2 / 5;
+                    if(k > 30)
+                        k = 30;
+                    else if(k < 10)
+                        k = 10;
+                    modifySize(k);
+                },
+                error: function(xhr,exp,stat){
+                    console.log(exp);
+                    console.log(stat);
+                }
+            });
+        }
+
 		</script>
 </head>
 <body onload="start()">
@@ -413,10 +440,10 @@
 			<div id = "youtube_container">
 				<div id = "youtube_list_text">Youtube List</div>
 				<div id ="youtube_list">
-					<svg>
-						<rect x="5" y="129" height="40" width="281" fill="#693905" ></rect>
-						<circle cx = "145" cy = "149" r = "40" fill="#7f4E20" stroke="white" stroke-width="4px"></circle>
-						<text x="115" y="155" fill="white" font-size="25">Login</text>
+					<svg id="lsvg">
+						<rect x="5" y="129" height="40" width="281" fill="#693905" id="lrect"></rect>
+                        <circle cx = "145" cy = "149" r = "40" fill="#7f4E20" stroke="white" stroke-width="4px" id="lcir" onClick="login()"> </circle>
+						<text x="115" y="155" fill="white" font-size="25" id="ltxt">Login</text>
 					</svg>
 				</div>
 			</div>
