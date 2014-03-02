@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>TIE by sonicyang</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>TIE</h1>
+        <h2>HRV</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/sonicyang/TIE/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/sonicyang/TIE/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/sonicyang/TIE" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="tie" class="anchor" href="#tie"><span class="octicon octicon-link"></span></a>TIE</h1>
+
+<hr><p>TIE -- Take It Easy is a mood monitor and changer base on HRV(Heart Rate Variablity) analysis.</p>
+
+<p>We are using bOMDIC company's HeartWare device to collect user's Heart Informations in realtime.</p>
+
+<p>We focus on user's R-R Interval, by doing frequency-domain analysis, we can obtain values related to user's mood.</p>
+
+<p>After Obtaining user's mood, this Program will change screen color and music playlist accroding to user's mood.</p>
+
+<p>We are using: </p>
+
+<ul>
+<li>Device:
+
+<ul>
+<li>bOMDIC HeartWave</li>
+</ul>
+</li>
+<li>Python 3 &amp; Python Library:
+
+<ul>
+<li>PyBlueZ</li>
+</ul>
+</li>
+<li>HTML5 and Javascript:
+
+<ul>
+<li>d3.js</li>
+<li>jQuery</li>
+</ul>
+</li>
+<li>External Program:
+
+<ul>
+<li>RedShift</li>
+<li>gnome</li>
+<li>lomb</li>
+</ul>
+</li>
+</ul><p>How to use:</p>
+
+<ol>
+<li>Build lomb.c</li>
+<li>Set your HeartWave's bluetooth MAC address in main.py</li>
+<li>run main.py to connect to your device</li>
+<li>run python -m SimpleHTTPServer under code's root dicectory</li>
+<li>open localhost:8000 in broswer</li>
+</ol><p>PS
+  Youtube playlist link are hard-coded in index.html's javascript section.</p>
+
+<p>bOMDIC's offical site: <a href="http://www.bomdic.com/">http://www.bomdic.com/</a></p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
